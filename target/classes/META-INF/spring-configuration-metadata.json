@@ -1,0 +1,60 @@
+{
+  "groups": [
+    {
+      "name": "otp-engine",
+      "type": "com.otp.configurations.OtpProperties",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "otp-engine.expire-mins",
+      "type": "java.lang.Integer",
+      "description": "Expire period in cache",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.expired-status",
+      "type": "java.lang.String",
+      "description": "Status for an expired otp",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.failed-status",
+      "type": "java.lang.String",
+      "description": "Status after failing while generating\/validating otp",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.max-range",
+      "type": "java.lang.Integer",
+      "description": "Maximum random number range",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.min-range",
+      "type": "java.lang.Integer",
+      "description": "Minimum random number range",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.salt",
+      "type": "java.lang.String",
+      "description": "Salt",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.secret-key",
+      "type": "java.lang.String",
+      "description": "Encryption key",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    },
+    {
+      "name": "otp-engine.success-status",
+      "type": "java.lang.String",
+      "description": "Status after successfully generating\/validating otp",
+      "sourceType": "com.otp.configurations.OtpProperties"
+    }
+  ],
+  "hints": []
+}
